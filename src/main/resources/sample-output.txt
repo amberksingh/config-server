@@ -1,0 +1,21 @@
+upon hitting http://localhost:8888/prometheus-app/default we get below in browser
+----------------------------------------------------------------------------------
+{
+  "name": "prometheus-app",
+  "profiles": [
+    "default"
+  ],
+  "label": null,
+  "version": "5b6f159ca97718fc5cf7d1acb5814d04ebc5a894",
+  "state": "",
+  "propertySources": [
+    {
+      "name": "https://github.com/amberksingh/config-repo/prometheus-app.yml",
+      "source": {
+        "student.app-name": "prometheus-app service from config repo",
+        "student.max-students": 100,
+        "student.subject": "science"
+      }
+    }
+  ]
+}
